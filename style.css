@@ -1,0 +1,167 @@
+body
+{
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+.profile-img
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.another-profile-img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.main-content
+{
+    margin: 0 auto;
+    width: 70%;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact
+{
+    margin: 0 auto;
+    width: 70%;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.menu-bar
+{
+    padding-top:20px;
+    padding-bottom: 30px;
+}
+.social-media
+{
+    margin: 30px 0;
+
+}
+.social-media .twitter
+{
+    padding: 0 20px;
+}
+.about
+{
+    display: flex;
+    gap: 10%;
+    justify-content: space-between;
+    width: 100%;
+}
+.about-title,
+.about-content
+{
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: peachpuff;
+    line-height:25px;
+}
+.one
+{
+    text-align: center;
+}
+.card
+{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: 1.5s;
+
+
+}
+.card1
+{
+    background-image: url(img/img5.jpg);
+}
+.card2
+{
+    background-image: url(img/img2.jpg);
+}
+.card3
+{
+    background-image: url(img/img3.jpg);
+}
+.card4
+{
+    background-image: url(img/img7.jpg);
+}
+.card5
+{
+    background-image: url(img/img10.jpg);
+}
+.card6
+{
+    background-image: url(img/img11.jpg);
+}
+.card7
+{
+    background-image: url(img/img12.jpg);
+}
+.card8
+{
+    background-image: url(img/img13.jpg);
+}
+.card:hover
+{
+    width: 200px;
+    height: 230px;
+    background-size: auto;
+
+}
+button
+{
+    width: 250px;
+    height: 70px;
+    color: white;
+    font-size: 20px;
+    padding: 12px 0;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 0;
+    outline: none;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+button:hover
+{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.footer
+{
+    background: #2b2d2f;
+    height: 200px;
+    margin: 0 auto;
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+a
+{
+    color: powderblue;
+}
+
+a:hover
+{
+    color: dimgray;
+    text-decoration: none;
+}
